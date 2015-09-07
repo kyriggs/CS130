@@ -1,2 +1,2 @@
 # CS130
-repo consists of content learned from my cs130 course
+repo consists of content I've learned during cs130
