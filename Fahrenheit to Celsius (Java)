@@ -1,0 +1,25 @@
+/*
+FtoC.java
+CS130B0
+Program written by Kyler Riggs
+Due date: 9/30
+*/
+import java.util.Scanner;
+
+public class FtoC {
+	static Scanner console = new Scanner(System.in);
+	public static void main(String[]args){
+		double celsius;
+		double fahr;
+			System.out.print("Please enter the temperature in Fahrenheit: ");
+			
+				fahr = console.nextDouble();
+				celsius = ((fahr - 32)*5)/9;
+				
+			System.out.print("Fahrenheit = ");
+			System.out.printf("%.2f", fahr);
+			System.out.print(", and Celsius = ");
+			System.out.printf("%.2f", celsius);
+			System.out.print(".");
+	}
+}
